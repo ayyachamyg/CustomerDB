@@ -16,7 +16,13 @@ import gdb.entity.AgeGroup;
 import gdb.entity.Customer;
 import gdb.entity.Region;
 
-public class CustomerGraph implements InMemoryGraph,GraphQuery{
+/**
+ * 
+ * @author ayyachamy
+ *
+ *
+ */
+public class CustomerGraph implements InMemoryGraph,GraphQuery {
 
 	final String delimiter=",";
 	public GraphImpl graph;
@@ -107,6 +113,7 @@ public void loadCustomer() throws GDBException, NumberFormatException, IOExcepti
 	       String[] data = line.split(delimiter);
 	       Integer ageGroup = Integer.parseInt(data[2]);
 	       Integer region = Integer.parseInt(data[3]);
+	       // below job should run in a parallel using executor service
 	       addCutomer(Integer.parseInt(data[0]),data[1],ageGroup,region);
 	       	i++;
 	       	//printGraph();

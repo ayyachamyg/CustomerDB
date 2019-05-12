@@ -9,6 +9,6 @@ Config files available under. This contains input file location. So please give 
 	CustomerGraphDB\\src\\main\\resource\\conf\\gdb.conf
 	
 Input files for test cases available under
-	CustomerGraphDB\\src\\test\\input\\age_group.txt
+	CustomerGraphDB\\src\\test\\input\\
 
 		

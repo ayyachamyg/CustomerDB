@@ -4,6 +4,12 @@ import java.util.Set;
 
 public interface GraphQuery {
 
+	/**
+	 * 
+	 * Added few usecases to get and put a record into inmemory graph
+	 * 
+	 */
+	
 	//public List<Integer> customerList();
 	public Set<Integer> customerByRegion(int regionId);
 	//public List<Integer> customerByAgeGroup(int ageGroupId);
