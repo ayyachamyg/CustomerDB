@@ -20,11 +20,7 @@ class CustomerGraphDBTest extends TestCase{
 	Integer actual[] = new Integer[100]; 
 	Integer expected[] = new Integer[100];
 	public int i=0;
-	public void setUp() throws Exception {
-		super.setUp();
-		initializeGraph();
-		
-	}
+	
 	
 	@Before
 	public void initializeGraph() throws GDBException {
