@@ -9,7 +9,7 @@ Config files available in below location. This contains input files location. So
 	CustomerGraphDB\\src\\main\\resource\\conf\\gdb.conf
 	
 Input files for test cases available under
-	CustomerGraphDB\\src\\test\\input\\age_group.txt
+	CustomerGraphDB\\src\\test\\input\\
 
 Test Cases available under
 	CustomerGraphDB\src\test\java
