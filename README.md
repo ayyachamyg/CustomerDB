@@ -13,5 +13,7 @@ Input files for test cases available under.
 
 Test Cases available under.
 	CustomerGraphDB\src\test\java
+	
+Refer classpath file if you face a problem in running a testcase.	
 
 		
