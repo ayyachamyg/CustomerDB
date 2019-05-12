@@ -16,6 +16,7 @@ public interface GraphQuery {
 	public Set<Integer> customerByRegionAgeGroup(int regionId,int ageGroupId);
 	public Set<Integer> customerByListOfRegionAgeGroup(Set<Integer> regionId, Set<Integer> ageGroupId) ;
 	public void addCutomer(int id,String name,int ageGroup,int region) ;
+	//public void addRegion(int id,String name);
 	
 	
 	
