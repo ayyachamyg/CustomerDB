@@ -11,4 +11,7 @@ Config files available under. This contains input file location. So please give 
 Input files for test cases available under
 	CustomerGraphDB\\src\\test\\input\\age_group.txt
 
+Test Cases available under
+	CustomerGraphDB\src\test\java
+
 		
